@@ -2,7 +2,7 @@ Given /^a user visits the signin page$/ do
   visit signin_path
 end
 
-When /^they submits invalid signin information$/ do
+When /^they submit invalid signin information$/ do
   click_button "Sign in"
 end
 
